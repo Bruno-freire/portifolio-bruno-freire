@@ -4,10 +4,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Mail, href: "mailto:contato@developer.com", label: "Email" },
+    { icon: Github, href: "https://github.com/Bruno-freire", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/bruno-freire-174294240/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:brunofreire1717@gmail.com", label: "Email" },
   ];
 
   return (

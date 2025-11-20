@@ -3,56 +3,64 @@ import { Card } from "@/components/ui/card";
 
 const Skills = () => {
   const skillCategories = [
-    {
-      icon: Code,
-      title: "Front-end",
-      color: "text-blue-500",
-      bgColor: "bg-blue-500/10",
-      skills: [
-        "React",
-        "TypeScript",
-        "Next.js",
-        "Tailwind CSS",
-        "HTML5 & CSS3",
-        "JavaScript ES6+",
-      ],
-    },
-    {
-      icon: Server,
-      title: "Back-end",
-      color: "text-green-500",
-      bgColor: "bg-green-500/10",
-      skills: [
-        "Node.js",
-        "Express",
-        "Python",
-        "REST API",
-        "GraphQL",
-        "Microservices",
-      ],
-    },
-    {
-      icon: Database,
-      title: "Banco de Dados",
-      color: "text-purple-500",
-      bgColor: "bg-purple-500/10",
-      skills: [
-        "PostgreSQL",
-        "MongoDB",
-        "MySQL",
-        "Redis",
-        "Prisma",
-        "Supabase",
-      ],
-    },
-    {
-      icon: Wrench,
-      title: "Ferramentas",
-      color: "text-orange-500",
-      bgColor: "bg-orange-500/10",
-      skills: ["Git & GitHub", "Docker", "AWS", "Vercel", "CI/CD", "Figma"],
-    },
-  ];
+  {
+    icon: Code,
+    title: "Front-end",
+    color: "text-blue-500",
+    bgColor: "bg-blue-500/10",
+    skills: [
+      "React",
+      "React Native",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "HTML5 & CSS3",
+      "JavaScript ES6+",
+    ],
+  },
+  {
+    icon: Server,
+    title: "Back-end",
+    color: "text-green-500",
+    bgColor: "bg-green-500/10",
+    skills: [
+      "Node.js",
+      "Express",
+      "NestJS",
+      "REST API",
+      "GraphQL",
+      "Microservices",
+    ],
+  },
+  {
+    icon: Database,
+    title: "Banco de Dados",
+    color: "text-purple-500",
+    bgColor: "bg-purple-500/10",
+    skills: [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "Prisma",
+      "Supabase",
+    ],
+  },
+  {
+    icon: Wrench,
+    title: "Ferramentas",
+    color: "text-orange-500",
+    bgColor: "bg-orange-500/10",
+    skills: [
+      "Git & GitHub",
+      "Docker",
+      "AWS",
+      "Vercel",
+      "CI/CD",
+      "Figma",
+    ],
+  },
+];
 
   return (
     <section id="skills" className="py-20 md:py-32 bg-muted/30">

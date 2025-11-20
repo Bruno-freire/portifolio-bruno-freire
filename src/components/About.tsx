@@ -6,17 +6,18 @@ const About = () => {
     {
       icon: Code2,
       title: "Código Limpo",
-      description: "Escrevo código maintível e escalável seguindo as melhores práticas",
+      description:
+        "Desenvolvimento orientado a boas práticas, padrões arquiteturais e manutenção a longo prazo.",
     },
     {
       icon: Rocket,
       title: "Performance",
-      description: "Otimizo aplicações para máxima velocidade e eficiência",
+      description: "Criação de APIs rápidas, seguras e resistentes, pensando em crescimento e alta demanda.",
     },
     {
       icon: Lightbulb,
       title: "Inovação",
-      description: "Sempre buscando novas tecnologias e soluções criativas",
+      description: "Sempre estudando novas tecnologias e buscando aprimorar processos, fluxo de trabalho e produtividade.",
     },
   ];
 
@@ -39,7 +40,7 @@ const About = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-primary-light rounded-full blur-2xl opacity-30" />
                 <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary shadow-2xl">
                   <img
-                    src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop"
+                    src={`../../../public/profile.jpg`}
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
@@ -50,15 +51,18 @@ const About = () => {
             {/* About text */}
             <div className="space-y-6 animate-fade-in-up">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Sou um desenvolvedor apaixonado por criar soluções tecnológicas
-                que fazem a diferença. Com experiência em desenvolvimento
-                Full Stack, trabalho com as mais modernas tecnologias do
-                mercado.
+                Sou um desenvolvedor Full Stack com experiência prática na
+                criação de aplicações modernas utilizando Nest.js, TypeScript,
+                React e Next.js. Formando em análise e desenvolvimento de sistemas, tenho conhecimento para transformar problemas reais em
+                soluções funcionais, escaláveis e bem estruturadas.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Meu foco está em construir aplicações web robustas, escaláveis
-                e com excelente experiência do usuário. Adoro aprender novas
-                tecnologias e enfrentar desafios complexos.
+                Trabalho com foco em arquitetura limpa, boas práticas e código
+                de fácil manutenção. Costumo atuar no backend com Express,
+                NestJS, Prisma, PostgreSQL e MongoDB, e no frontend com React,
+                Next.js e Tailwind. Gosto de aprender, evoluir e enfrentar
+                desafios que realmente exigem raciocínio, organização e clareza
+                técnica.
               </p>
 
               {/* Highlights */}
