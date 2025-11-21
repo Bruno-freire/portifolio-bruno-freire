@@ -41,45 +41,47 @@ const Projects = () => {
       github: "https://github.com/Bruno-freire/Staff-Schedule",
       demo: "https://staff-schedule.vercel.app/",
       objectives:
-        "Criar uma plataforma escalável de e-commerce com foco em performance e UX",
+        "Criar uma plataforma eficiente para facilitar o gerenciamento de escalas de funcionários no atacarejo do cliente, seguindo as regras de negócio especificas.",
       challenges:
-        "Implementar sistema de pagamentos seguro e otimizar performance para grande volume de produtos",
+        "Implementar regras complexas de escalas, deixando a geração bem dinâmica, garantir usabilidade para usuários não técnicos e otimizar performance com grande volume de dados.",
     },
     {
       id: 2,
-      title: "Task Management App",
-      shortDescription: "Aplicativo de gerenciamento de tarefas em tempo real",
+      title: "Product-Manager",
+      shortDescription: "WebApp para gerenciamento de produtos",
       description:
-        "Aplicativo colaborativo de gerenciamento de tarefas com recursos de kanban, notificações em tempo real e equipes.",
+        "WebApp para gerenciamento de estados do produtos, para acompanhar produtos que estao com quantidade baixa, zerados(fora da área de vendas) ou com estoque negativo em decorrência de falhas operacionais ou estoque errado.",
       images: [
-        "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=500&fit=crop",
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop",
+        "/projects_imgs/product-manager1.png",
+        "/projects_imgs/product-manager2.png",
+        "/projects_imgs/product-manager3.png",
+        "/projects_imgs/product-manager4.png",
       ],
-      technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "WebSocket"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+      technologies: ["Next.js", "TypeScript"],
+      github: "https://github.com/Bruno-freire/product-manager",
+      demo: "https://product-manager-p7tf.vercel.app/",
       objectives:
-        "Desenvolver ferramenta intuitiva para gestão de projetos e colaboração em equipe",
+        "Fornecer uma ferramenta simples para monitorar e gerenciar o estoque de produtos de forma eficiente, para garantir a integridade do estoque do cliente",
       challenges:
-        "Sincronização em tempo real entre múltiplos usuários e otimização de queries no banco de dados",
+        "Assimilar as necessidades do cliente e criar uma interface intuitiva para usuários não técnicos",
     },
     {
       id: 3,
-      title: "Social Media Dashboard",
-      shortDescription: "Dashboard analytics para redes sociais",
+      title: "Salário inteligente",
+      shortDescription: "Sistema de gestão salarial e controle financeiro",
       description:
-        "Dashboard completo para análise de métricas de redes sociais com gráficos interativos e relatórios automatizados.",
+        "Aplicação web focada em organização financeira, permitindo ao usuário planejar salário, controlar gastos, acompanhar balanços, atingir metas e manter estabilidade econômica de forma prática.",
       images: [
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop",
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
       ],
-      technologies: ["React", "D3.js", "Python", "FastAPI", "Redis"],
+      technologies: ["React", "Supabase", "TypeScript", "TailwindCSS"],
       github: "https://github.com",
       demo: "https://demo.com",
       objectives:
-        "Centralizar métricas de múltiplas redes sociais em uma interface unificada",
+        "Fornecer uma plataforma funcional para controle de salário, despesas e planejamento financeiro.",
       challenges:
-        "Integração com APIs de diferentes plataformas e processamento de grandes volumes de dados",
+        "Trabalhar sobre uma base de código pré-existente do cliente, realizar uma refatoração profunda, criar queries otimizadas no Supabase, corrigir fluxos quebrados e estabilizar todo o comportamento da aplicação.",
     },
   ];
 
@@ -110,7 +112,7 @@ const Projects = () => {
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-primary to-primary-light mx-auto rounded-full mb-4" />
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Alguns dos projetos que desenvolvi recentemente
+              Alguns dos projetos que desenvolvi ou trabalhei
             </p>
           </div>
 
