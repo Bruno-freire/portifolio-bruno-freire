@@ -5,16 +5,31 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import { Reveal } from "@/components/ui/reveal";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <Hero />
+      <Reveal>
+        <Hero />
+      </Reveal>
+      <Reveal>
+
       <About />
+      </Reveal>
+      <Reveal>
+
       <Skills />
+      </Reveal>
+      <Reveal>
+
       <Projects />
+      </Reveal>
+      <Reveal>
+
       <Contact />
+      </Reveal>
       <Footer />
     </div>
   );
