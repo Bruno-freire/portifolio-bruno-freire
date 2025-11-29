@@ -231,6 +231,7 @@ const Projects = () => {
                 <img
                   src={selectedProject.images[currentImageIndex]}
                   alt={`${selectedProject.title} - ${currentImageIndex + 1}`}
+                  rel="preload"
                   className="w-full h-full object-contain"
                 />
 
