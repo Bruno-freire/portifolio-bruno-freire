@@ -106,7 +106,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="py-20 md:py-32 bg-background">
+    <section id="projects" className="section bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           {/* Section header */}
@@ -137,6 +137,7 @@ const Projects = () => {
                   <img
                     src={project.images[0]}
                     alt={project.title}
+                    rel="preload"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />

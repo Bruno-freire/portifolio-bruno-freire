@@ -96,7 +96,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 md:py-32 bg-muted/30">
+    <section id="contact" className="section bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 md:mb-16 animate-fade-in-up">
